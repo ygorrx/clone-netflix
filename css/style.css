@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Montserrat:wght@400;800&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+:root{
+    --vermelha: #E50914;
+    --preta: #141414;  
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: "Montserrat", Serif; 
+    color: white;
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo{
+    color: var(--vermelha);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-left: 50px;
+}
+
+header nav a {
+    color: #dadada;
+    margin-right: 10px;
+    padding-right: 50px;
+}
+
+header nav a:hover {
+    color: white;
+    
+}
+
+/* MAIN MOVIE */
+
+.main-movie{
+    margin-top: 20px;
+    height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1)100%),url('/img/bb-fundo.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.title{
+    
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.description{
+    
+    margin-bottom: 40px;
+    max-width: 45%;
+    line-height: 25px;
+}
+
+.button-menu{
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button-menu:hover{
+    background-color: white;
+    color: black;
+}
+
+.secondary{
+    margin-left: 10px;
+}
+
+.button-menu i{
+    margin-right: 10px;
+}
+
+/*CARROSSEL*/
+
+.item{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* Burguer Menu */
+
