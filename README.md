@@ -28,9 +28,9 @@ Os usuários devem poder:
 
 ### Screenshot
 
-![Laptop Homepage](./img/screenshots/homepage-ss.png)
-![Tablet Homepage](./img/screenshots/tablet-ss.png)
-![Mobile Homepage](./img/screenshots/mobile-ss.png)
+![Laptop Homepage](https://i.imgur.com/O064iDu.png)
+![Tablet Homepage](https://i.imgur.com/lRlq0cS.png)
+![Mobile Homepage](https://i.imgur.com/A63qSi4.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
