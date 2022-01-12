@@ -31,8 +31,7 @@ Os usuários devem poder:
 ![Screen Views](https://i.imgur.com/6NeBfb7.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Site ao Vivo](https://netflix-alike.netlify.app/)
 
 ## My process
 ### Built with
