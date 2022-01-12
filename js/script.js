@@ -1,5 +1,5 @@
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:false,
     responsive:{
@@ -27,3 +27,23 @@ menuToggle.addEventListener("click", () => {
     menuSection.classList.toggle("on", show)
     show = !show;
 })
+
+function initScrollSuave(){
+    const linksInternos = document.querySelectorAll('a[href^="#"')
+
+    function scrollTo(event){
+        event.preventDefault()
+        const href = event.currentTarget.getAttribute('href');
+        const section = document.querySelector(href)
+        section.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+        })
+}
+
+linksInternos.forEach((item) =>{
+    item.addEventListener('click', scrollTo)
+})
+}
+
+initScrollSuave();
